@@ -5,15 +5,12 @@ echo 'Cleanup Traces of Installation...'
 #####################################################
 # Purge build tools
 #####################################################
-apk del curl \
-        linux-headers \
+apk del linux-headers \
         build-base \
         paxctl \
         libgcc \
         libstdc++ \
-        gnupg \
-        musl-dev \
-        pcre-dev
+        gnupg
 
 #####################################################
 # Purge directories

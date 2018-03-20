@@ -1,2 +1,3 @@
 # aws-node-serverless
-Docker Image for AWS Node JS with pre installed serverless
+Docker Image containing AWS, Node JS, and pre installed serverless
+
